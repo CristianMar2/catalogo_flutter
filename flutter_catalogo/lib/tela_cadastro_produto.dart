@@ -69,7 +69,7 @@ class _TelaCadastroProdutoState extends State<TelaCadastroProduto> {
             ),
             TextField(
               controller: _controladorPreco,
-              keyboardType: const TextInputType.numberWithOptions(decimal: true), // Define o tipo de teclado como numérico com opção para decimais[cite: 10]
+              keyboardType: const TextInputType.numberWithOptions(decimal: true),
               decoration: const InputDecoration(
                 labelText: "Preço (ex: 1234.56)",
               ),
